@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoViewModel", "AutoViewModel\AutoViewModel.csproj", "{0028DB53-9B96-4BB7-ABFB-DBC90B090FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTest", "WpfTest\WpfTest.csproj", "{8BD17370-F581-4060-B8F0-74FC808861A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoViewModel.Tests", "AutoViewModel.Tests\AutoViewModel.Tests.csproj", "{344A49B8-0305-458D-A379-F7B7CFD41EAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0028DB53-9B96-4BB7-ABFB-DBC90B090FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0028DB53-9B96-4BB7-ABFB-DBC90B090FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0028DB53-9B96-4BB7-ABFB-DBC90B090FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0028DB53-9B96-4BB7-ABFB-DBC90B090FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD17370-F581-4060-B8F0-74FC808861A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD17370-F581-4060-B8F0-74FC808861A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD17370-F581-4060-B8F0-74FC808861A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD17370-F581-4060-B8F0-74FC808861A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344A49B8-0305-458D-A379-F7B7CFD41EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344A49B8-0305-458D-A379-F7B7CFD41EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344A49B8-0305-458D-A379-F7B7CFD41EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344A49B8-0305-458D-A379-F7B7CFD41EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
