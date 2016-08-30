@@ -11,7 +11,7 @@ namespace AutoViewModel.Interceptors
             invocation.Proceed();
             if (invocation.Method.Name.StartsWith("set_"))
             {   
-                Handler.OnPropertyChanged(invocation.Method.Name.Replace("set_", string.Empty));
+                Handler.RaisePropertyChanged(invocation.Method.Name.Replace("set_", string.Empty));
             }
         }
     }

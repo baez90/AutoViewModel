@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICallableNotifyPropertyChanged.cs" />
-    <Compile Include="SimpleNotifyPropertyChanged.cs" />
+    <Compile Include="Base\SimpleNotifyPropertyChanged.cs" />
     <Compile Include="ViewModelGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Interceptors\ViewModelSetterInterceptor.cs" />

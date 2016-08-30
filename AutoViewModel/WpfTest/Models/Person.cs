@@ -1,4 +1,4 @@
-﻿using AutoViewModel;
+﻿using AutoViewModel.Base;
 
 namespace WpfTest.Models
 {

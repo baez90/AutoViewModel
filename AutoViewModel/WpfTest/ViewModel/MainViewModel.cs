@@ -12,7 +12,7 @@ namespace WpfTest.ViewModel
         public MainViewModel()
         {
             NoProxyPerson = new Person();
-            ProxyPerson = ViewModelGenerator.CreateAutoViewModel<Person>();
+            ProxyPerson = ViewModelGenerator.CreateEmpty<Person>();
 
             RunDemoFillCommand = new RelayCommand(() =>
             {

@@ -7,12 +7,12 @@ namespace AutoViewModel
     {
         private static readonly ProxyGenerator Generator = new ProxyGenerator();
 
-        public static TModel CreateAutoViewModel<TModel>() where TModel : class, ICallableNotifyPropertyChanged, new()
+        public static TModel CreateEmpty<TModel>() where TModel : class, ICallableNotifyPropertyChanged, new()
         {
-            return CreateAutoViewModel<TModel>(null);
+            return CreateEmpty<TModel>(null);
         }
 
-        public static TModel CreateAutoViewModel<TModel>(ICallableNotifyPropertyChanged parentHandler) where TModel : class, ICallableNotifyPropertyChanged, new()
+        internal static TModel CreateEmpty<TModel>(ICallableNotifyPropertyChanged parentHandler) where TModel : class, ICallableNotifyPropertyChanged, new()
         {
             var interceptor = new ViewModelSetterInterceptor();
             var proxy = Generator.CreateClassProxy<TModel>(interceptor);

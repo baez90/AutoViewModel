@@ -4,6 +4,6 @@ namespace AutoViewModel
 {
     public interface ICallableNotifyPropertyChanged : INotifyPropertyChanged
     {
-        void OnPropertyChanged(string propertyName);
+        void RaisePropertyChanged(string propertyName);
     }
 }
